@@ -1,4 +1,4 @@
-package com.yguixi.demo_ygx;
+package com.yguixi.demo_yguixi;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

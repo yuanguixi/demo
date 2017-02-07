@@ -1,4 +1,4 @@
-package com.yguixi.demo_ygx;
+package com.yguixi.demo_yguixi;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.yguixi.demo_ygx", appContext.getPackageName());
+        assertEquals("com.yguixi.demo_yguixi", appContext.getPackageName());
     }
 }

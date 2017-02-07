@@ -1,4 +1,4 @@
-package com.yguixi.demo_ygx;
+package com.yguixi.demo_yguixi;
 
 import org.junit.Test;
 
