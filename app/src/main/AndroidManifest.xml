@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.FirstActivity" />
-        <activity android:name=".ui.BaseActivity"></activity>
+        <activity android:name=".ui.BaseActivity" />
+        <activity android:name=".tabledemo.TabActivity"></activity>
     </application>
 
 </manifest>

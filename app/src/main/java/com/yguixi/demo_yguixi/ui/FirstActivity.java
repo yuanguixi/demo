@@ -1,6 +1,5 @@
 package com.yguixi.demo_yguixi.ui;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.yguixi.demo_yguixi.R;

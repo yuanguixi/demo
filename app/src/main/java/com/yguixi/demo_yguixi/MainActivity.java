@@ -6,9 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.yguixi.demo_yguixi.tabledemo.TabActivity;
+import com.yguixi.demo_yguixi.ui.BaseActivity;
 import com.yguixi.demo_yguixi.ui.FirstActivity;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,15 +22,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void initUI() {
         Button btn = (Button) findViewById(R.id.animal);
         btn.setOnClickListener(this);
+        Button btnTab = (Button) findViewById(R.id.btn_tabdemo);
+        btnTab.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.animal:
-                Intent intent = new Intent();
-                intent.setClass(this, FirstActivity.class);
-                startActivity(intent);
+                goActivity(FirstActivity.class);
+                break;
+            case R.id.btn_tabdemo:
+                goActivity(TabActivity.class);
+                break;
         }
     }
 }
