@@ -8,7 +8,9 @@ import android.widget.Button;
 
 import com.yguixi.demo_yguixi.tabledemo.TabActivity;
 import com.yguixi.demo_yguixi.ui.BaseActivity;
+import com.yguixi.demo_yguixi.ui.DbActivity;
 import com.yguixi.demo_yguixi.ui.FirstActivity;
+import com.yguixi.demo_yguixi.ui.PopActivity;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
@@ -24,6 +26,10 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         btn.setOnClickListener(this);
         Button btnTab = (Button) findViewById(R.id.btn_tabdemo);
         btnTab.setOnClickListener(this);
+        Button btnPop = (Button) findViewById(R.id.btn_pop);
+        btnPop.setOnClickListener(this);
+        Button btnDb = (Button) findViewById(R.id.btn_db);
+        btnDb.setOnClickListener(this);
     }
 
     @Override
@@ -34,6 +40,12 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 break;
             case R.id.btn_tabdemo:
                 goActivity(TabActivity.class);
+                break;
+            case R.id.btn_pop:
+                goActivity(PopActivity.class);
+                break;
+            case R.id.btn_db:
+                goActivity(DbActivity.class);
                 break;
         }
     }

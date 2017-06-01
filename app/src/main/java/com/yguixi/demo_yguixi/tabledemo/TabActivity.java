@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 
 import com.flyco.tablayout.CommonTabLayout;
+import com.flyco.tablayout.listener.OnTabSelectListener;
 import com.yguixi.demo_yguixi.R;
 import com.yguixi.demo_yguixi.ui.BaseActivity;
 
@@ -25,6 +26,28 @@ public class TabActivity extends BaseActivity {
         setContentView(R.layout.activity_tab);
         initViewPager();
     }
+    /**
+     * 初始化Tabs组件
+     */
+//    private void initTabs() {
+//        mTabLayout = (CommonTabLayout) findViewById(R.id.tab);
+//        selectedColor = getResources().getColor(R.color.colorPrimary);
+//        for (int i = 0; i < mTitles.length; i++) {
+//            mTabEntities.add(new TabEntity(mTitles[i], mIconSelectIds[i], mIconUnselectIds[i]));
+//        }
+//        mTabLayout.setTabData(mTabEntities);
+//        mTabLayout.setOnTabSelectListener(new OnTabSelectListener() {
+//            @Override
+//            public void onTabSelect(int position) {
+//                    mViewPager.setCurrentItem(position);
+//                    mTabLayout.setCurrentTab(position);
+//            }
+//
+//            @Override
+//            public void onTabReselect(int position) {
+//            }
+//        });
+//    }
     /**
      * ViewPager组件初始化
      */

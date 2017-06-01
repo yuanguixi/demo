@@ -33,16 +33,16 @@
                 android:text="Tab切换" />
 
             <Button
-                android:id="@+id/btn_ygx1_3"
+                android:id="@+id/btn_pop"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="动画" />
+                android:text="pop" />
 
             <Button
-                android:id="@+id/btn_ygx1_4"
+                android:id="@+id/btn_db"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="动画" />
+                android:text="Db" />
         </LinearLayout>
 
         <LinearLayout
